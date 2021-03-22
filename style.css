@@ -1,0 +1,36 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    /* margin: 0; */
+}
+
+/* applies to footers only in body */
+body > footer{
+    background-color: dodgerblue;
+}
+
+/* applying padding to the footer insde the body targeting paragraph */
+body > footer {
+    /* padding: 5px; */
+    color: white;
+    text-align: center;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+}
+
+/* apply styling to our logo to our site, we have defined CSS with id = "logo' inside the <h1> tag in html file */
+#logo {
+    margin-top: 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+header > nav > ul {
+    list-style: none;
+}
+
+body {
+    margin: auto;
+    width: 75%;
+}
